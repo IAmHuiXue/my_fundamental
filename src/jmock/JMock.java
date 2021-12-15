@@ -1,9 +1,9 @@
 package jmock;
 
 //import org.jmock.*;
-import org.junit.Test;
-import org.junit.runner.JUnitCore;
-
+//import org.junit.Test;
+//import org.junit.runner.JUnitCore;
+//
 //public class JMock {
 //    @Test
 //    public void testMock() {
