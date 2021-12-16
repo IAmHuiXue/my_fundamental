@@ -3,7 +3,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class JavaArrayList {
+public class
+JavaArrayList {
     /**
      * ArrayList is regarded as a resizable array.
      * E get(int index) --> like array[index]

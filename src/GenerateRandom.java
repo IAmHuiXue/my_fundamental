@@ -8,6 +8,8 @@ public class GenerateRandom {
         int upperbound = 25;
         //generate random values from 0-24
         int int_random = rand.nextInt(upperbound);
+        // generate random values from 1-24
+        int int_random2 = 1 + rand.nextInt(upperbound - 1);
 
         double double_random = rand.nextDouble();
         float float_random = rand.nextFloat();

@@ -3,7 +3,7 @@ public class CharIntASCII {
     public static void main(String[] args) {
         // char in Java is 2 bytes
         // int in Java is 4 bytes
-        // from int to cast to char, we need to explicitly cast using brackets
+        // cast int to char, we need to explicitly cast using brackets
         int z = 112;
         System.out.println((char) z);
         char x = 58; // 把ascii码为58的对应字符(:)赋值给x <=> char x = ':';
@@ -23,6 +23,9 @@ public class CharIntASCII {
         sb.setLength(0);
         sb.append((char) (x + y));
         // 得到的结果是两个字符对应的ascii码的值相加后对应ascii码的值
+        System.out.println(sb);
+        sb.setLength(0);
+        sb.append(x).append(y);
         System.out.println(sb);
 
         // char 与 int 相加

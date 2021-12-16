@@ -1,11 +1,14 @@
-
 import java.util.HashMap;
 
 public class HashMapNullCases {
     public static void main(String[] args) {
+        // HashMap permits null values and null key.
+        // note: not all the implementation classes of Map interface support such
+
         HashMap<Integer, Integer> map = new HashMap<>();
         // when we instantiate a map, it contains an empty array
         // where each bucket in the array is null --> there is no pair at all
+        //
 
         // will return null because currently the map is empty
         System.out.println(map.get(1));
@@ -40,7 +43,7 @@ public class HashMapNullCases {
         System.out.println(map.get(5)); // key 5 no longer exists, so no value --> null
         System.out.println(map.containsKey(5)); // no, since pair has been removed
 
-        // NOTICE: although ln 41 & 38 both return null, they have different meaning!
+        // NOTICE: although ln 44 & 40 both return null, they have different meanings!
 
 
     }
