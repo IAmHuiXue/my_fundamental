@@ -26,8 +26,7 @@ public class StringSplit {
         }
 
         System.out.println();
-        /** "." 不能直接用，需要用 "\\."      !
-         * */
+        /** "." 不能直接用，需要用 "\\." ! */
         String str3 = "www.runoob.com";
         System.out.println("转义字符返回值 :");
         for (String retval : str3.split("\\.", 3)) {

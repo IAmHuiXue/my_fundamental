@@ -13,7 +13,7 @@ public class OverrideMethods {
 
         System.out.println(a.equals(b));
 
-        Set<Pair> set = new HashSet<Pair>() {
+        Set<Pair> set = new HashSet<>() {
             {
                 add(a);
                 add(c);

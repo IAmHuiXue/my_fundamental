@@ -18,6 +18,7 @@ public class MapAdvancedAPIs {
         // provide value for new key which is absent
         // using computeIfAbsent method
         map.computeIfAbsent("key5", k -> 2000 + 33000);
+//        map.putIfAbsent("key5", 5000);
         map.computeIfAbsent("key5", k -> 2000 * 34); // will not be executed
 
         // print new mapping

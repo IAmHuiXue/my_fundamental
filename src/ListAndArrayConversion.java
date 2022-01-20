@@ -54,7 +54,7 @@ public class ListAndArrayConversion {
         }
         System.out.println("\n" + list2);
 
-        // the method below will not work for primitive type
+        // the method below will not work for primitive type!
 //        List<Integer> list2 = Arrays.asList(array2);
 
         /** NOTICE: int[] array itself is an object of array. So the case below still respects the rules */

@@ -22,11 +22,15 @@ public class JavaSwitch {
      *
      */
     public static void main(String[] args) {
-        int day = 7;
+        dayCheck(7);
+        dayCheck(2);
+    }
+
+    static void dayCheck(int day) {
         switch (day) {
             case 1:
                 System.out.println("Monday");
-                break;                      // When Java reaches a break keyword, it breaks out of the switch block.
+                break;
             case 2:
                 System.out.println("Tuesday");
                 break;
@@ -40,7 +44,7 @@ public class JavaSwitch {
                 System.out.println("Friday");
                 break;
             default:            // The default keyword specifies some code to run if there is no case match
-                System.out.println("Weekends!"); // Note that if the default statement is used as the last statement in a switch block, it does not need a break.
+                System.out.println("Weekends!");
         }
     }
 }

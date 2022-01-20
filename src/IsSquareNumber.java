@@ -15,9 +15,9 @@ public class IsSquareNumber {
         if (num <= 0) {
             return false;
         }
-        //calculating the square root of the given number
+        // calculates the square ROOT of the given number
         double sqrt = Math.sqrt(num * 1.0);
-        //finds the floor value of the square root and comparing it with zero
+        // finds the floor value of the square root and compares it with zero
         return ((sqrt - Math.floor(sqrt)) == 0);
     }
 }

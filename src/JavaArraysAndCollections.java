@@ -5,7 +5,7 @@ import java.util.List;
 
 public class JavaArraysAndCollections {
     /**
-     * They are the placeholders of **a set of utility methods** for manipulating arrays and collections objects
+     * They are the placeholders of a set of utility methods** for manipulating arrays and collections objects
      *
      * - they are NOT the class for array and Collection
      * - Collection is an interface
