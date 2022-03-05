@@ -37,7 +37,7 @@ public class StringSplit {
         String str4 = new String("acount=? and uu =? or n=?");
         System.out.println("多个分隔符返回值 :");
         for (String retval : str4.split("and|or")) {
-            System.out.println(retval);
+            System.out.println(retval.trim());
         }
 
         System.out.println();

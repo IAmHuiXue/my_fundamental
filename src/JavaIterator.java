@@ -2,6 +2,7 @@
 import java.util.ArrayList;
 
 import java.util.Iterator;
+import java.util.List;
 
 public class JavaIterator {
     /**
@@ -11,7 +12,7 @@ public class JavaIterator {
 
     public static void main(String[] args) {
         // Make a collection
-        ArrayList<String> cars = new ArrayList<>();
+        List<String> cars = new ArrayList<>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");

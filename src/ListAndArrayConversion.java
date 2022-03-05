@@ -46,6 +46,8 @@ public class ListAndArrayConversion {
         // fixed-size list
         List<String> list1 = Arrays.asList(array1);
         System.out.println("\n" + list1);
+        // unfixed-size
+        List<String> list1Unfixed = new ArrayList<>(Arrays.asList(array1));
 
         /** convert an array of primitives to list */
         List<Integer> list2 = new ArrayList<>();
@@ -67,6 +69,8 @@ public class ListAndArrayConversion {
 
         // Alternatively, we could use IntStream
         List<Integer> output2 = IntStream.of(input).boxed().collect(Collectors.toList());
+
+        /** But there is still not a function to convert an array of primitives to list*/
 
     }
 }

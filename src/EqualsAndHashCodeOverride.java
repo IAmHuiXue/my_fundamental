@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-public class OverrideMethods {
+public class EqualsAndHashCodeOverride {
     public static void main(String[] args) {
         Pair a = new Pair("Mike", "Ruby");
         Pair b = new Pair("Ruby", "Mike");
