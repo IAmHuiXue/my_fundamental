@@ -1,5 +1,3 @@
-package junit;
-
 import java.util.Arrays;
 
 public class TwoDAndOneDConversion {
