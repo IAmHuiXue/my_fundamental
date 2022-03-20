@@ -20,6 +20,12 @@ public class WrapperClasses {
         System.out.println(myDouble.doubleValue());
         System.out.println(myChar.charValue());
 
+        /** static method valueOf()
+         *
+         */
+        System.out.println(Integer.valueOf("1")); // return Integer
+        System.out.println(Integer.parseInt("1")); // return int
+
         /**
          * Another useful method is the toString() method, which is used to convert wrapper objects to string.
          *

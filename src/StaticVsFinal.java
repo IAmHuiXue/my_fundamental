@@ -17,17 +17,17 @@ public class StaticVsFinal {
     static int x = 3;
     /** int y must be initialized either within the class or within the constructor */
     final int y;
-    /** we have to initialize a static final variable when declaring it,
+    /** we have to initialize a static final variable (aka constant) when declaring it,
      * or another way is to initialize it inside a static block */
-//    static final int z = 1;
-    static final int z;
+//    static final int Z = 1;
+    static final int Z;
     static {
-        z = x; // -> initialize z until when x is initialized
+        Z = x; // -> initialize z until when x is initialized
     }
     public StaticVsFinal() {
 //         x = 1; // --> this is not good, we should not change a static variable when creating an instance
          y = 3; // --> if y is not initialized during declaration, it has to be initialized during constructing
-//         z = 4; // --> WRONG static final variable cannot be left un-initialized until constructing
+//         Z = 4; // --> WRONG static final variable cannot be left un-initialized until constructing
     }
 }
 

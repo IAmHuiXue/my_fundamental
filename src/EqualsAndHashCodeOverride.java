@@ -10,9 +10,7 @@ public class EqualsAndHashCodeOverride {
         Pair c = new Pair("Ruby", "Luke");
 
         System.out.println(a == b);
-
         System.out.println(a.equals(b));
-
         Set<Pair> set = new HashSet<>() {
             {
                 add(a);

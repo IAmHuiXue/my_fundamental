@@ -9,14 +9,12 @@ public class TwoDAndOneDConversion {
     }
 
     /*
-
     To put the elements from a 1-d array of length L accordingly to a 2-d array of size R * C
     There are two ways to achieve this:
 
-1 2 3 4
-5 6 7 8
-9 0 1 2
-
+            1 2 3 4
+            5 6 7 8
+            9 0 1 2
      */
 
     /**
