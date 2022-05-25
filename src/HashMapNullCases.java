@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class HashMapNullCases {
     public static void main(String[] args) {
-        // HashMap permits null values and null key.
+        // HashMap permits null value and null key.
         // note: not all the implementation classes of Map interface support such
 
         HashMap<Integer, Integer> map = new HashMap<>();

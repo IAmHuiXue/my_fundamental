@@ -7,20 +7,11 @@ import java.util.stream.IntStream;
 
 public class ListAndArrayConversion {
     public static void main(String[] args) {
-        List<String> listOfReferenceType = new ArrayList<>();
-        listOfReferenceType.add("Hello");
-        listOfReferenceType.add("World");
-        listOfReferenceType.add("!");
+        List<String> listOfReferenceType = Arrays.asList("Hello", "World", "!");
 
-        List<Integer> listOfPrimitiveTypes = new ArrayList<>();
-        listOfPrimitiveTypes.add(1);
-        listOfPrimitiveTypes.add(2);
-        listOfPrimitiveTypes.add(3);
+        List<Integer> listOfPrimitiveTypes = Arrays.asList(1, 2, 3);
 
-        List<int[]> listOfReferenceType2 = new ArrayList<>();
-        listOfReferenceType2.add(new int[] {1, 2});
-        listOfReferenceType2.add(new int[] {3});
-        listOfReferenceType2.add(new int[] {4, 5, 6});
+        List<int[]> listOfReferenceType2 = Arrays.asList(new int[] {1, 2}, new int[] {3}, new int[] {4, 5, 6});
 
         /** convert a list to array of references */
         // method 1 -> recommended in modern java by passing in an empty array

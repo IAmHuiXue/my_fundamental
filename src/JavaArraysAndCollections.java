@@ -96,7 +96,7 @@ public class JavaArraysAndCollections {
         // i = 1
 
 
-        // Collections.reverseOrder()-> reverse the natural order defined by a class implementing
+        // Collections.reverseOrder()-> returns a comparator reversing the natural order defined by a class implementing
         // Comparable interface
     }
 }
