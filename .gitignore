@@ -1,2 +1,5 @@
-/src/Main.java
-/out/
+*/Main.java
+out/
+.idea/
+target/
+*.iml
