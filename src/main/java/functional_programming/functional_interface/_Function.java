@@ -8,7 +8,8 @@ public class _Function {
         // Function takes 1 argument and produces 1 result
         System.out.println(incrementByOne(0));
         System.out.println(incrementByOneFunction.apply(0));
-        System.out.println(incrementByOneFunction.andThen(multipleByTenFunction).apply(0));
+        System.out.println(addByOneAndMultiplyBiFunction.apply(0));
+//        System.out.println(incrementByOneFunction.andThen(multipleByTenFunction).apply(0));
         //BiFunction takes 2 arguments and produces 1 result
         System.out.println(incrementByOneAndMultiply(4, 10));
         System.out.println(incrementByOneAndMultiplyBiFunction.apply(4, 10));
@@ -24,9 +25,13 @@ public class _Function {
     static Function<Integer, Integer> multipleByTenFunction =
             number -> 10 * number;
 
+
     static int incrementByOneAndMultiply(int number, int numToMultiplyBy) {
         return (number + 1) * numToMultiplyBy;
     }
+
+    static Function<Integer, Integer> addByOneAndMultiplyBiFunction =
+            incrementByOneFunction.andThen(multipleByTenFunction);
 
     // <input1, input2, result>
     static BiFunction<Integer, Integer, Integer> incrementByOneAndMultiplyBiFunction =

@@ -1,11 +1,10 @@
-package functional_programming.imperative;
+package functional_programming.declarative;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static functional_programming.imperative.Main.Gender.*;
-
+import static functional_programming.declarative.Main.Gender.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -42,6 +41,7 @@ public class Main {
         List<Person> females2 = people.stream()
                 .filter(p -> FEMALE.equals(p.gender))
                 .collect(Collectors.toList());
+
         females2.forEach(System.out::println);
 
 
