@@ -1,5 +1,6 @@
-*/Main.java
-out/
+/src/Main.java
+/out/
 .idea/
+.fleet/
 target/
 *.iml
